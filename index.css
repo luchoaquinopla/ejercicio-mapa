@@ -1,0 +1,29 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue; /* Fondo de la página */
+}
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Fondo del contenedor */
+    border: 1px solid black;
+}
+.marcador {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
